@@ -1,3 +1,4 @@
 {
-    "usePartialClasses": true
+    "usePartialClasses": true,
+    "targetFramework": "net8.0"
 }
