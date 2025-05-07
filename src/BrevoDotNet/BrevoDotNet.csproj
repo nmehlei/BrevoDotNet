@@ -6,13 +6,13 @@
     <AssemblyName>BrevoDotNet</AssemblyName>
     <PackageId>BrevoDotNet</PackageId>
     <OutputType>Library</OutputType>
-    <Authors>OpenAPI</Authors>
-    <Company>OpenAPI</Company>
+    <Authors>Nicolas Mehlei</Authors>
+    <Company>Nicolas Mehlei Einzelunternehmung</Company>
     <AssemblyTitle>OpenAPI Library</AssemblyTitle>
     <Description>A library generated from a OpenAPI doc</Description>
     <Copyright>No Copyright</Copyright>
     <RootNamespace>BrevoDotNet</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>0.0.1</Version>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\BrevoDotNet.xml</DocumentationFile>
     <RepositoryUrl>https://github.com/GIT_USER_ID/GIT_REPO_ID.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
