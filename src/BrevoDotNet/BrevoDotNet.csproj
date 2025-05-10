@@ -19,12 +19,16 @@
     <PackageReleaseNotes>Minor update</PackageReleaseNotes>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
-    <IncludeSymbols>true</IncludeSymbols>
+    <!-- <IncludeSymbols>true</IncludeSymbols> -->
     <IncludeSource>true</IncludeSource>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <!-- <SymbolPackageFormat>snupkg</SymbolPackageFormat> -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <DebugType>embedded</DebugType> <!-- Embed PDBs into DLL -->
+
+    <!-- Make sure symbols are not published to symbol server if using embedded -->
+    <IncludeSymbols>false</IncludeSymbols>
+    <SymbolPackageFormat>none</SymbolPackageFormat> <!-- Don't generate a .snupkg -->
   </PropertyGroup>
 
   <ItemGroup>
