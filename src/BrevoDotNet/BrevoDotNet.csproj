@@ -28,7 +28,7 @@
 
     <!-- Make sure symbols are not published to symbol server if using embedded -->
     <IncludeSymbols>false</IncludeSymbols>
-    <SymbolPackageFormat>none</SymbolPackageFormat> <!-- Don't generate a .snupkg -->
+    <!-- <SymbolPackageFormat>none</SymbolPackageFormat> --><!-- Don't generate a .snupkg -->
   </PropertyGroup>
 
   <ItemGroup>
